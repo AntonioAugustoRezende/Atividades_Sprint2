@@ -1,0 +1,78 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.capa {}
+
+.capa_figura {}
+
+.capa_figura_imagem {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 15px;
+    /* Transform ---> Movimenta todo o elemento
+        Translate --> Se movimenta nos eixos X e Y*/
+    transform: translateY(-30%);
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    /* Border-Radius ---> Arredondar a img*/
+    border-radius: 50%;
+    /* Overflow --> Img cresce dentro do circulo quando o mouse passar em cima*/
+    overflow: hidden;
+
+}
+
+.profile_imagem {
+
+    object-fit: cover;
+    /* Border-Radius ---> Arredondar a img*/
+    border-radius: 50%;
+    /* Transition --> Dá o zoom devagar*/
+    transition: 0.3s ease;
+
+}
+
+/* Hover na Img --> Aproxima a img quando o mouse está em cima*/
+.profile_imagem:hover {
+    transform: scale(1.3);
+
+}
+
+.profile_titulo {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.profile_texto {
+    width: 652px;
+    height: 113px;
+    left: 325px;
+    top: 412px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-align: center;
+
+    color: #000000;
+}
