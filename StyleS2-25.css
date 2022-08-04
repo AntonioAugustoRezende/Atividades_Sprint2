@@ -34,7 +34,7 @@ body {
 }
 
 .profile_imagem {
-
+    /* Object-Fit --> Ajusta a img dentro da dimensão escolhida*/
     object-fit: cover;
     /* Border-Radius ---> Arredondar a img*/
     border-radius: 50%;
