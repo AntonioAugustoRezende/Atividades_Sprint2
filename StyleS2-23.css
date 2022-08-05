@@ -54,6 +54,7 @@
     justify-content: space-between;
     height: 330px;
     margin-bottom: 50px;
+    text-decoration: none;
 }
 
 .card img {}
@@ -114,7 +115,7 @@
 }
 
 .card button:hover {
-    background-color: blue;
+    background-color: rgb(91, 91, 243);
 }
 
 h2 {
